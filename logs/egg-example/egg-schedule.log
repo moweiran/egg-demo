@@ -1,54 +1,567 @@
-2020-04-20 14:10:32,267 INFO 12644 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 51567735ms at 2020-04-21 04:30:00.002
-2020-04-20 14:10:32,268 INFO 12644 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35367733ms at 2020-04-21 00:00:00.001
-2020-04-20 14:10:32,268 INFO 12644 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35368732ms at 2020-04-21 00:00:01.000
-2020-04-20 14:10:32,181 INFO 11868 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:10:32,181 INFO 11868 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:10:32,181 INFO 11868 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:10:57,872 INFO 13716 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:10:57,872 INFO 13716 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:10:57,872 INFO 13716 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:11:09,221 INFO 7908 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 51530782ms at 2020-04-21 04:30:00.003
-2020-04-20 14:11:09,221 INFO 7908 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35330779ms at 2020-04-21 00:00:00.000
-2020-04-20 14:11:09,221 INFO 7908 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35331779ms at 2020-04-21 00:00:01.000
-2020-04-20 14:11:09,134 INFO 7584 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:11:09,134 INFO 7584 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:11:09,134 INFO 7584 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:21:10,711 INFO 13944 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:21:10,711 INFO 13944 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:21:10,711 INFO 13944 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:21:34,906 INFO 13864 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 50905096ms at 2020-04-21 04:30:00.002
-2020-04-20 14:21:34,907 INFO 13864 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34705093ms at 2020-04-21 00:00:00.000
-2020-04-20 14:21:34,907 INFO 13864 [Timer] D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34706093ms at 2020-04-21 00:00:01.000
-2020-04-20 14:21:34,809 INFO 13680 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:21:34,809 INFO 13680 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:21:34,809 INFO 13680 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:23:00,015 INFO 12996 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:23:00,015 INFO 12996 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:23:00,015 INFO 12996 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:25:52,881 INFO 13680 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:25:52,881 INFO 13680 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:25:52,881 INFO 13680 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:25:57,139 INFO 6244 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:25:57,139 INFO 6244 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:25:57,139 INFO 6244 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:26:01,099 INFO 13968 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:26:01,099 INFO 13968 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:26:01,099 INFO 13968 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:26:04,970 INFO 9264 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:26:04,970 INFO 9264 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:26:04,970 INFO 9264 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:31:30,759 INFO 7668 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:31:30,759 INFO 7668 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:31:30,759 INFO 7668 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:31:46,200 INFO 9460 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:31:46,201 INFO 9460 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:31:46,201 INFO 9460 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:34:52,360 INFO 11924 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:34:52,360 INFO 11924 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:34:52,360 INFO 11924 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:36:10,213 INFO 13900 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:36:10,213 INFO 13900 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:36:10,213 INFO 13900 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2020-04-20 14:36:18,654 INFO 12408 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
-2020-04-20 14:36:18,654 INFO 12408 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
-2020-04-20 14:36:18,654 INFO 12408 [egg-schedule]: register schedule D:\Projects\Tests\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:03:22,303 INFO 6348 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55597699ms at 2020-07-22 04:30:00.002
+2020-07-21 13:03:22,303 INFO 6348 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39397697ms at 2020-07-22 00:00:00.000
+2020-07-21 13:03:22,304 INFO 6348 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39398697ms at 2020-07-22 00:00:01.001
+2020-07-21 13:03:22,172 INFO 7500 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:03:22,172 INFO 7500 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:03:22,172 INFO 7500 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:04:14,044 INFO 9312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:04:14,045 INFO 9312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:04:14,045 INFO 9312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:04:21,925 INFO 6488 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:04:21,925 INFO 6488 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:04:21,925 INFO 6488 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:04:23,314 INFO 6808 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:04:23,314 INFO 6808 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:04:23,314 INFO 6808 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:04:56,484 INFO 9088 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:04:56,484 INFO 9088 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:04:56,484 INFO 9088 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:04:57,914 INFO 12208 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:04:57,914 INFO 12208 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:04:57,914 INFO 12208 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:05:39,860 INFO 7448 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55460143ms at 2020-07-22 04:30:00.003
+2020-07-21 13:05:39,860 INFO 7448 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39260140ms at 2020-07-22 00:00:00.000
+2020-07-21 13:05:39,860 INFO 7448 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39261140ms at 2020-07-22 00:00:01.000
+2020-07-21 13:05:39,742 INFO 5520 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:05:39,742 INFO 5520 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:05:39,742 INFO 5520 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:08:42,250 INFO 11608 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:08:42,250 INFO 11608 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:08:42,250 INFO 11608 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:11:15,713 INFO 8864 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:11:15,713 INFO 8864 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:11:15,713 INFO 8864 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:12:22,718 INFO 11472 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:12:22,718 INFO 11472 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:12:22,718 INFO 11472 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:20:31,370 INFO 9768 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:20:31,370 INFO 9768 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:20:31,370 INFO 9768 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:20:50,428 INFO 6468 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:20:50,428 INFO 6468 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:20:50,428 INFO 6468 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:20:51,844 INFO 9516 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:20:51,844 INFO 9516 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:20:51,844 INFO 9516 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:21:36,735 INFO 12836 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:21:36,735 INFO 12836 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:21:36,735 INFO 12836 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:22:39,384 INFO 11832 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:22:39,384 INFO 11832 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:22:39,384 INFO 11832 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:30:51,232 INFO 11344 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:30:51,233 INFO 11344 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:30:51,233 INFO 11344 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:30:51,233 INFO 11344 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:31:02,155 INFO 10584 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:31:02,155 INFO 10584 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:31:02,155 INFO 10584 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:31:02,155 INFO 10584 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:33:00,748 INFO 4848 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:33:00,748 INFO 4848 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:33:00,748 INFO 4848 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:33:00,748 INFO 4848 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:33:08,954 INFO 10176 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 53811048ms at 2020-07-22 04:30:00.002
+2020-07-21 13:33:08,954 INFO 10176 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 37611046ms at 2020-07-22 00:00:00.000
+2020-07-21 13:33:08,955 INFO 10176 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37612046ms at 2020-07-22 00:00:01.001
+2020-07-21 13:33:08,955 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:34:08.955
+2020-07-21 13:33:08,839 INFO 12068 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:33:08,839 INFO 12068 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:33:08,839 INFO 12068 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:33:08,839 INFO 12068 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:34:08,957 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:35:08.957
+2020-07-21 13:34:08,958 INFO 12068 [Job#1595309648957127453461706591] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:34:14,012 ERROR 12068 [Job#1595309648957127453461706591] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5008,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'http://www.api.com/cache' ],
+     timing: null,
+     remoteAddress: '',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:34:14,013 ERROR 12068 [Job#1595309648957127453461706591] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5053ms
+2020-07-21 13:35:08,961 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:36:08.961
+2020-07-21 13:35:08,960 INFO 12068 [Job#1595309708961128053467909572] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:35:12,932 INFO 9920 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:35:12,932 INFO 9920 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:35:12,932 INFO 9920 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:35:12,932 INFO 9920 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:35:22,877 INFO 13132 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:35:22,877 INFO 13132 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:35:22,877 INFO 13132 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:35:22,877 INFO 13132 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:36:08,962 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:37:08.962
+2020-07-21 13:36:08,964 INFO 13132 [Job#1595309768962128653476886873] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:36:14,047 ERROR 13132 [Job#1595309768962128653476886873] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5039,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:36:14,049 ERROR 13132 [Job#1595309768962128653476886873] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5083ms
+2020-07-21 13:37:08,965 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:38:08.965
+2020-07-21 13:37:08,966 INFO 13132 [Job#1595309828965129253485732684] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:37:13,979 ERROR 13132 [Job#1595309828965129253485732684] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 2,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:37:13,979 ERROR 13132 [Job#1595309828965129253485732684] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5013ms
+2020-07-21 13:38:08,966 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:39:08.966
+2020-07-21 13:38:08,967 INFO 13132 [Job#1595309888966129853483109095] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:38:13,979 ERROR 13132 [Job#1595309888966129853483109095] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 3,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5001,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:38:13,979 ERROR 13132 [Job#1595309888966129853483109095] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5012ms
+2020-07-21 13:39:05,886 INFO 12108 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:39:05,886 INFO 12108 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:39:05,886 INFO 12108 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:39:05,886 INFO 12108 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:39:08,968 INFO 10176 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:40:08.968
+2020-07-21 13:39:08,968 INFO 12108 [Job#1595309948968130453483372096] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:39:09,099 ERROR 12108 [Job#1595309948968130453483372096] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 60ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 90,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:39:09,101 ERROR 12108 [Job#1595309948968130453483372096] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 130ms
+2020-07-21 13:39:43,918 INFO 3996 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 53416084ms at 2020-07-22 04:30:00.002
+2020-07-21 13:39:43,919 INFO 3996 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 37216082ms at 2020-07-22 00:00:00.001
+2020-07-21 13:39:43,919 INFO 3996 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37217081ms at 2020-07-22 00:00:01.000
+2020-07-21 13:39:43,919 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:40:43.919
+2020-07-21 13:39:43,804 INFO 8780 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:39:43,804 INFO 8780 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:39:43,804 INFO 8780 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:39:43,804 INFO 8780 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:39:51,253 INFO 10296 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:39:51,253 INFO 10296 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:39:51,253 INFO 10296 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:39:51,253 INFO 10296 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:40:43,922 INFO 10296 [Job#1595310043920131402991040971] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:40:43,921 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:41:43.921
+2020-07-21 13:40:46,991 ERROR 10296 [Job#1595310043920131402991040971] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 3000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 3029,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:40:46,993 ERROR 10296 [Job#1595310043920131402991040971] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3066ms
+2020-07-21 13:41:43,924 INFO 10296 [Job#1595310103923132002992240512] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:41:43,923 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:42:43.923
+2020-07-21 13:41:46,961 ERROR 10296 [Job#1595310103923132002992240512] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 3000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 2,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 3004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:41:46,962 ERROR 10296 [Job#1595310103923132002992240512] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3037ms
+2020-07-21 13:42:43,926 INFO 10296 [Job#1595310163925132603000595603] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:42:43,925 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:43:43.925
+2020-07-21 13:42:46,959 ERROR 10296 [Job#1595310163925132603000595603] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 3000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 3,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 3004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:42:46,959 ERROR 10296 [Job#1595310163925132603000595603] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3033ms
+2020-07-21 13:43:29,638 INFO 10508 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:43:29,639 INFO 10508 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:43:29,639 INFO 10508 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:43:29,639 INFO 10508 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:43:43,927 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:44:43.927
+2020-07-21 13:43:43,926 INFO 10508 [Job#1595310223927133203008745414] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:43:49,983 ERROR 10508 [Job#1595310223927133203008745414] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 6000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 6017,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:43:49,984 ERROR 10508 [Job#1595310223927133203008745414] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 6056ms
+2020-07-21 13:44:43,930 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:45:43.930
+2020-07-21 13:44:43,931 INFO 10508 [Job#1595310283930133803017536705] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:44:49,966 ERROR 10508 [Job#1595310283930133803017536705] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 6000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 2,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 6004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:44:49,967 ERROR 10508 [Job#1595310283930133803017536705] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 6035ms
+2020-07-21 13:45:43,932 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:46:43.932
+2020-07-21 13:45:43,933 INFO 10508 [Job#1595310343932134403026440246] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:45:49,971 ERROR 10508 [Job#1595310343932134403026440246] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 6000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 3,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 6003,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:45:49,972 ERROR 10508 [Job#1595310343932134403026440246] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 6038ms
+2020-07-21 13:45:57,499 INFO 11888 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:45:57,499 INFO 11888 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:45:57,499 INFO 11888 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:45:57,499 INFO 11888 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:45:58,964 INFO 12688 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:45:58,964 INFO 12688 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:45:58,964 INFO 12688 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:45:58,964 INFO 12688 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:46:43,936 INFO 12688 [Job#1595310403935135003035343787] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:46:43,960 ERROR 12688 [Job#1595310403935135003035343787] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. ReferenceError: app is not defined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:19:24)
+    at Object.task (D:\lzy\egg-demo\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (D:\lzy\egg-demo\node_modules\egg-schedule\app.js:46:21)
+    at emitOne (events.js:116:13)
+    at Messenger.emit (events.js:211:7)
+    at Messenger._onMessage (D:\lzy\egg-demo\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at emitTwo (events.js:131:20)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+2020-07-21 13:46:43,962 ERROR 12688 [Job#1595310403935135003035343787] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 22ms
+2020-07-21 13:46:43,935 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:47:43.935
+2020-07-21 13:47:14,970 INFO 10804 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:47:14,970 INFO 10804 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:47:14,970 INFO 10804 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:47:14,970 INFO 10804 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:47:43,937 INFO 10804 [Job#1595310463936135603034128208] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:47:43,936 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:48:43.936
+2020-07-21 13:47:44,139 INFO 10804 [Job#1595310463936135603034128208] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 200ms
+2020-07-21 13:48:43,939 INFO 10804 [Job#1595310523938136203033072999] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:48:43,979 INFO 10804 [Job#1595310523938136203033072999] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 40ms
+2020-07-21 13:48:43,938 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:49:43.938
+2020-07-21 13:49:43,939 INFO 10804 [Job#15953105839391368030308663510] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:49:43,939 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:50:43.939
+2020-07-21 13:49:44,057 INFO 10804 [Job#15953105839391368030308663510] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 117ms
+2020-07-21 13:50:23,403 INFO 4420 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:50:23,403 INFO 4420 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:50:23,403 INFO 4420 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:50:23,403 INFO 4420 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:50:43,943 INFO 4420 [Job#15953106439411374030479197111] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:50:44,061 INFO 4420 [Job#15953106439411374030479197111] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 115ms
+2020-07-21 13:50:43,942 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:51:43.942
+2020-07-21 13:51:33,096 INFO 13808 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 13:51:33,096 INFO 13808 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 13:51:33,096 INFO 13808 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 13:51:33,096 INFO 13808 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 13:51:43,946 INFO 13808 [Job#15953107039451380030605116712] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:51:43,945 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:52:43.945
+2020-07-21 13:51:44,111 INFO 13808 [Job#15953107039451380030605116712] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 163ms
+2020-07-21 13:52:43,949 INFO 13808 [Job#15953107639471386030684754713] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:52:43,991 INFO 13808 [Job#15953107639471386030684754713] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 42ms
+2020-07-21 13:52:43,947 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:53:43.947
+2020-07-21 13:53:43,950 INFO 13808 [Job#15953108239501392030763462514] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 13:53:44,054 INFO 13808 [Job#15953108239501392030763462514] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 104ms
+2020-07-21 13:53:43,950 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:54:43.950
+2020-07-21 13:54:43,951 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:55:43.951
+2020-07-21 13:55:43,953 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:56:43.953
+2020-07-21 13:56:43,954 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:57:43.954
+2020-07-21 13:57:43,956 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:58:43.956
+2020-07-21 13:58:43,958 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 13:59:43.958
+2020-07-21 13:59:43,960 INFO 3996 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:00:43.960
+2020-07-21 14:02:37,216 INFO 9832 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 52042788ms at 2020-07-22 04:30:00.004
+2020-07-21 14:02:37,217 INFO 9832 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35842783ms at 2020-07-22 00:00:00.000
+2020-07-21 14:02:37,218 INFO 9832 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35843783ms at 2020-07-22 00:00:01.001
+2020-07-21 14:02:37,218 INFO 9832 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:03:37.218
+2020-07-21 14:02:36,892 INFO 7416 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:02:36,892 INFO 7416 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:02:36,892 INFO 7416 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:02:36,892 INFO 7416 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 14:03:58,601 INFO 9976 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 51961404ms at 2020-07-22 04:30:00.005
+2020-07-21 14:03:58,601 INFO 9976 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35761399ms at 2020-07-22 00:00:00.000
+2020-07-21 14:03:58,602 INFO 9976 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35762398ms at 2020-07-22 00:00:01.000
+2020-07-21 14:03:58,602 INFO 9976 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:04:58.602
+2020-07-21 14:03:58,276 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:03:58,276 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:03:58,276 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:03:58,276 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 14:04:58,605 INFO 9976 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:05:58.605
+2020-07-21 14:04:58,607 INFO 14312 [Job#1595311498604145949459058631] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 14:04:58,823 INFO 14312 [Job#1595311498604145949459058631] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 214ms
+2020-07-21 14:05:13,226 INFO 13824 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:05:13,226 INFO 13824 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:05:13,226 INFO 13824 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:05:13,226 INFO 13824 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 14:05:58,609 INFO 9976 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:06:58.609
+2020-07-21 14:05:58,609 INFO 13824 [Job#1595311558609146549468404782] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 14:05:58,713 ERROR 13824 [Job#1595311558609146549468404782] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'query' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-07-21 14:05:58,714 ERROR 13824 [Job#1595311558609146549468404782] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 103ms
+2020-07-21 14:06:31,056 INFO 12048 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:06:31,057 INFO 12048 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:06:31,057 INFO 12048 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:06:31,057 INFO 12048 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 14:06:32,947 INFO 12452 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:06:32,947 INFO 12452 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:06:32,947 INFO 12452 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:06:32,947 INFO 12452 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 14:06:34,539 INFO 13888 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:06:34,539 INFO 13888 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:06:34,539 INFO 13888 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:06:34,539 INFO 13888 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-07-21 14:06:58,610 INFO 9976 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:07:58.610
+2020-07-21 14:06:58,610 INFO 13888 [Job#1595311618610147149475098473] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 14:06:58,768 ERROR 13888 [Job#1595311618610147149475098473] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-07-21 14:06:58,768 ERROR 13888 [Job#1595311618610147149475098473] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 157ms
+2020-07-21 14:07:58,611 INFO 9976 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:08:58.611
+2020-07-21 14:07:58,612 INFO 13888 [Job#1595311678611147749475005464] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-07-21 14:07:58,661 ERROR 13888 [Job#1595311678611147749475005464] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-07-21 14:07:58,663 ERROR 13888 [Job#1595311678611147749475005464] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 49ms
+2020-07-21 14:16:12,212 INFO 12944 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 51227791ms at 2020-07-22 04:30:00.003
+2020-07-21 14:16:12,212 INFO 12944 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35027788ms at 2020-07-22 00:00:00.000
+2020-07-21 14:16:12,213 INFO 12944 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35028788ms at 2020-07-22 00:00:01.001
+2020-07-21 14:16:12,213 INFO 12944 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-07-21 14:17:12.213
+2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js

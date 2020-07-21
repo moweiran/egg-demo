@@ -1,17 +1,482 @@
-2020-04-20 14:21:55,223 ERROR 13680 [-/127.0.0.1/-/22ms GET /list] nodejs.Template render error: (unknown path)
-  Error: filter not found: hello
-  Error: filter not found: hello
-    at Object._prettifyError (D:\Projects\Tests\egg-example\node_modules\nunjucks\src\lib.js:36:11)
-    at D:\Projects\Tests\egg-example\node_modules\nunjucks\src\environment.js:561:19
-    at Template.root [as rootRenderFunc] (eval at _compile (D:\Projects\Tests\egg-example\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:16:3)
-    at Template.render (D:\Projects\Tests\egg-example\node_modules\nunjucks\src\environment.js:550:10)
-    at NunjucksEnvironment.renderString (D:\Projects\Tests\egg-example\node_modules\nunjucks\src\environment.js:378:17)
-    at Promise (D:\Projects\Tests\egg-example\node_modules\egg-view-nunjucks\lib\view.js:23:25)
-    at new Promise (<anonymous>)
-    at NunjucksView.renderString (D:\Projects\Tests\egg-example\node_modules\egg-view-nunjucks\lib\view.js:22:12)
-    at ContextView.[contextView#renderString] (D:\Projects\Tests\egg-example\node_modules\egg-view\lib\context_view.js:82:17)
-    at ContextView.renderString (D:\Projects\Tests\egg-example\node_modules\egg-view\lib\context_view.js:44:31)
-name: "Template render error"
-pid: 13680
+2020-07-21 13:06:59,336 ERROR 5520 [-/127.0.0.1/-/5041ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5029,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 5520
 hostname: LZY-PC
 
+2020-07-21 13:07:25,929 ERROR 5520 [-/127.0.0.1/-/5006ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 5520
+hostname: LZY-PC
+
+2020-07-21 13:08:26,543 ERROR 5520 [-/127.0.0.1/-/5004ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 5520
+hostname: LZY-PC
+
+2020-07-21 13:08:51,459 ERROR 11608 [-/127.0.0.1/-/5063ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5052,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 11608
+hostname: LZY-PC
+
+2020-07-21 13:19:44,054 ERROR 11472 [-/127.0.0.1/-/5043ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5017,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 11472
+hostname: LZY-PC
+
+2020-07-21 13:20:39,837 ERROR 9768 [-/127.0.0.1/-/5033ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5017,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 9768
+hostname: LZY-PC
+
+2020-07-21 13:20:57,725 ERROR 9516 [-/127.0.0.1/-/5045ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5020,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 9516
+hostname: LZY-PC
+
+2020-07-21 13:22:47,832 ERROR 11832 [-/127.0.0.1/-/5052ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5030,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 11832
+hostname: LZY-PC
+
+2020-07-21 13:34:13,977 ERROR 12068 [Job#1595309648957127453461706591] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET http://www.api.com/cache -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/cache',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5008,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'http://www.api.com/cache' ],
+     timing: null,
+     remoteAddress: '',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:34:14,012 ERROR 12068 [Job#1595309648957127453461706591] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5053ms
+2020-07-21 13:36:14,021 ERROR 13132 [Job#1595309768962128653476886873] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5039,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:36:14,048 ERROR 13132 [Job#1595309768962128653476886873] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5083ms
+2020-07-21 13:37:13,970 ERROR 13132 [Job#1595309828965129253485732684] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 2,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:37:13,979 ERROR 13132 [Job#1595309828965129253485732684] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5013ms
+2020-07-21 13:38:13,968 ERROR 13132 [Job#1595309888966129853483109095] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 3,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 5001,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:38:13,979 ERROR 13132 [Job#1595309888966129853483109095] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 5012ms
+2020-07-21 13:39:09,076 ERROR 12108 [Job#1595309948968130453483372096] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 60ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 90,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:39:09,100 ERROR 12108 [Job#1595309948968130453483372096] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 130ms
+2020-07-21 13:40:46,969 ERROR 10296 [Job#1595310043920131402991040971] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 3000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 3029,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:40:46,991 ERROR 10296 [Job#1595310043920131402991040971] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3066ms
+2020-07-21 13:41:46,930 ERROR 10296 [Job#1595310103923132002992240512] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 3000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 2,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 3004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:41:46,961 ERROR 10296 [Job#1595310103923132002992240512] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3037ms
+2020-07-21 13:42:46,931 ERROR 10296 [Job#1595310163925132603000595603] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 3000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 3,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 3004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:42:46,959 ERROR 10296 [Job#1595310163925132603000595603] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3033ms
+2020-07-21 13:43:49,953 ERROR 10508 [Job#1595310223927133203008745414] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 6000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 1,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 6017,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:43:49,983 ERROR 10508 [Job#1595310223927133203008745414] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 6056ms
+2020-07-21 13:44:49,937 ERROR 10508 [Job#1595310283930133803017536705] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 6000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 2,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 6004,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:44:49,966 ERROR 10508 [Job#1595310283930133803017536705] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 6035ms
+2020-07-21 13:45:49,937 ERROR 10508 [Job#1595310343932134403026440246] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. { ConnectionTimeoutError: Connect timeout for 6000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at Timeout._onTimeout (D:\lzy\egg-demo\node_modules\urllib\lib\urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+  name: 'ConnectionTimeoutError',
+  requestId: 3,
+  data: undefined,
+  path: '/v0/topstories.json',
+  status: -2,
+  headers: {},
+  res: 
+   { status: -2,
+     statusCode: -2,
+     statusMessage: null,
+     headers: {},
+     size: 0,
+     aborted: false,
+     rt: 6003,
+     keepAliveSocket: false,
+     data: undefined,
+     requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ],
+     timing: null,
+     remoteAddress: '35.201.97.85',
+     remotePort: '',
+     socketHandledRequests: 1,
+     socketHandledResponses: 0 } }
+2020-07-21 13:45:49,971 ERROR 10508 [Job#1595310343932134403026440246] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 6038ms
+2020-07-21 13:46:43,942 ERROR 12688 [Job#1595310403935135003035343787] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. ReferenceError: app is not defined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:19:24)
+    at Object.task (D:\lzy\egg-demo\node_modules\egg-schedule\lib\load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (D:\lzy\egg-demo\node_modules\egg-schedule\app.js:46:21)
+    at emitOne (events.js:116:13)
+    at Messenger.emit (events.js:211:7)
+    at Messenger._onMessage (D:\lzy\egg-demo\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at emitTwo (events.js:131:20)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+2020-07-21 13:46:43,960 ERROR 12688 [Job#1595310403935135003035343787] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 22ms
+2020-07-21 14:05:58,708 ERROR 13824 [Job#1595311558609146549468404782] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'query' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-07-21 14:05:58,714 ERROR 13824 [Job#1595311558609146549468404782] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 103ms
+2020-07-21 14:06:58,760 ERROR 13888 [Job#1595311618610147149475098473] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-07-21 14:06:58,768 ERROR 13888 [Job#1595311618610147149475098473] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 157ms
+2020-07-21 14:07:58,654 ERROR 13888 [Job#1595311678611147749475005464] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-07-21 14:07:58,661 ERROR 13888 [Job#1595311678611147749475005464] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 49ms

@@ -8,16 +8,18 @@ class NewsService extends Service {
         // use build-in http client to GET hacker-news api
         const { data: idList } = await this.ctx.curl(`${serverUrl}/topstories.json`, {
             data: {
-                orderBy: '"$key"',
-                startAt: `"${pageSize * (page - 1)}"`,
-                endAt: `"${pageSize * page - 1}"`,
+                // orderBy: '"$key"',
+                // startAt: `"${pageSize * (page - 1)}"`,
+                // endAt: `"${pageSize * page - 1}"`,
             },
             dataType: 'json',
         });
 
+        console.log(idList);
         // parallel GET detail
         const newsList = await Promise.all(
             Object.keys(idList).map(key => {
+                console.log(key);
                 const url = `${serverUrl}/item/${idList[key]}.json`;
                 return this.ctx.curl(url, { dataType: 'json' });
             })

@@ -10,9 +10,11 @@ class AppBootHook {
 
         // 例如：参数中的密码是加密的，在此处进行解密
         // this.app.config.mysql.password = decrypt(this.app.config.mysql.password);
-        // // 例如：插入一个中间件到框架的 coreMiddleware 之间
+        // 例如：插入一个中间件到框架的 coreMiddleware 之间
         // const statusIdx = this.app.config.coreMiddleware.indexOf('status');
         // this.app.config.coreMiddleware.splice(statusIdx + 1, 0, 'limit');
+        // console.log(this.app.config.mysql)
+        // app.database = this.app.mysql.createInstance(this.app.config.mysql);
     }
 
     async didLoad() {

@@ -17,21 +17,21 @@ exports.view = {
   * @property {Boolean} [cache=true] - use a cache and recompile templates each time. false in local env.
   */
 exports.nunjucks = {
-    // autoescape: true,
-    // throwOnUndefined: false,
-    // trimBlocks: false,
-    // lstripBlocks: false,
-    // cache: true,
+    autoescape: true,
+    throwOnUndefined: false,
+    trimBlocks: false,
+    lstripBlocks: false,
+    cache: true,
 }
 
-// exports.sequelize = {
-//     dialect: 'mssql',
-//     host: '127.0.0.1',
-//     port: 3306,
-//     database: 'Tests',
-//     username: 'root',
-//     password: '',
-// };
+exports.sequelize = {
+    dialect: 'mssql',
+    host: '127.0.0.1',
+    port: 3306,
+    database: 'Tests',
+    username: 'root',
+    password: '',
+};
 
 // 中间件设置
 exports.middleware = [
@@ -41,10 +41,10 @@ exports.middleware = [
 
 // 安全设置
 exports.security = {
-    // csrf: false,
+    csrf: false,
     // 若用户没有配置 domainWhiteList 或者 domainWhiteList数组内为空，
     // 则默认会对所有跳转请求放行，即等同于ctx.unsafeRedirect(url)
-    // domainWhiteList: ['.domain.com'],  // 安全白名单，以 . 开头
+    domainWhiteList: ['.domain.com'],  // 安全白名单，以 . 开头
 };
 
 // jsonp设置
@@ -64,7 +64,7 @@ exports.jsonp = {
 // }
 
 exports.webpack = {
-    // port: 9000,  
+    port: 9000,
     webpackConfigList: [require('../build/webpack.config.js')]
 };
 
@@ -79,4 +79,24 @@ exports.robot = {
         /curl/i,
         /Baiduspider/i,
     ]
+};
+
+exports.mysql = {
+    // 单数据库信息配置
+    client: {
+        // host
+        host: '39.97.109.255',
+        // 端口号
+        port: '3306',
+        // 用户名
+        user: 'root',
+        // 密码
+        password: 'ldy-tianshunjy.com',
+        // 数据库名
+        database: 'dy_erp',
+    },
+    // 是否加载到 app 上，默认开启
+    app: true,
+    // 是否加载到 agent 上，默认关闭
+    agent: false,
 };

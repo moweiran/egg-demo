@@ -5,10 +5,10 @@ exports.nunjucks = {
     package: 'egg-view-nunjucks'
 };
 
-exports.sequelize = {
-    enable: true,
-    package: 'egg-sequelize',
-};
+// exports.sequelize = {
+//     enable: true,
+//     package: 'egg-sequelize',
+// };
 
 exports.ua = {
     enable: true,
@@ -18,4 +18,9 @@ exports.ua = {
 exports.webpack = {
     enable: true,
     package: 'egg-webpack',
+};
+
+exports.mysql = {
+    enable: true,
+    package: 'egg-mysql',
 };
