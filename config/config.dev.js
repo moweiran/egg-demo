@@ -1,10 +1,3 @@
-// only read at development mode, will override default
-exports.robot = {
-    ua: [
-        /Baiduspider/i,
-    ],
-};
-
 exports.mysql = {
     // 单数据库信息配置
     client: {
