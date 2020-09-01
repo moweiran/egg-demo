@@ -565,3 +565,369 @@ headers: {}
 2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
 2020-07-21 14:16:11,924 INFO 7660 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-09-01 14:16:22,073 INFO 9932 [Timer] D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 51217931ms at 2020-09-02 04:30:00.004
+2020-09-01 14:16:22,073 INFO 9932 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35017927ms at 2020-09-02 00:00:00.000
+2020-09-01 14:16:22,074 INFO 9932 [Timer] D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35018927ms at 2020-09-02 00:00:01.001
+2020-09-01 14:16:22,074 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:17:22.074
+2020-09-01 14:16:21,625 INFO 10520 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-01 14:16:21,625 INFO 10520 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-01 14:16:21,625 INFO 10520 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-01 14:16:21,625 INFO 10520 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-09-01 14:17:22,077 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:18:22.077
+2020-09-01 14:17:22,080 INFO 10520 [Job#1598941042076195712111309281] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:17:22,282 ERROR 10520 [Job#1598941042076195712111309281] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-09-01 14:17:22,283 ERROR 10520 [Job#1598941042076195712111309281] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 200ms
+2020-09-01 14:18:22,081 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:19:22.081
+2020-09-01 14:18:22,080 INFO 10520 [Job#1598941102081196312118647622] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:18:22,131 ERROR 10520 [Job#1598941102081196312118647622] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-09-01 14:18:22,132 ERROR 10520 [Job#1598941102081196312118647622] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 50ms
+2020-09-01 14:19:22,084 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:20:22.084
+2020-09-01 14:19:22,084 INFO 10520 [Job#1598941162084196912144450493] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:19:25,131 ERROR 10520 [Job#1598941162084196912144450493] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-09-01 14:19:25,131 ERROR 10520 [Job#1598941162084196912144450493] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3047ms
+2020-09-01 14:19:25,944 INFO 14992 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-01 14:19:25,944 INFO 14992 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-01 14:19:25,944 INFO 14992 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-01 14:19:25,944 INFO 14992 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-09-01 14:20:22,086 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:21:22.086
+2020-09-01 14:20:22,087 INFO 14992 [Job#1598941222086197512142449124] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:20:24,340 INFO 14992 [Job#1598941222086197512142449124] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 2250ms
+2020-09-01 14:21:22,088 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:22:22.088
+2020-09-01 14:21:22,089 INFO 14992 [Job#1598941282088198112149267885] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:21:22,146 INFO 14992 [Job#1598941282088198112149267885] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 57ms
+2020-09-01 14:22:03,748 INFO 10260 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-01 14:22:03,749 INFO 10260 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-01 14:22:03,749 INFO 10260 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-01 14:22:03,749 INFO 10260 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-09-01 14:22:22,091 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:23:22.091
+2020-09-01 14:22:22,093 INFO 10260 [Job#1598941342091198712155682516] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:22:22,337 INFO 10260 [Job#1598941342091198712155682516] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 242ms
+2020-09-01 14:22:51,961 INFO 14776 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-01 14:22:51,961 INFO 14776 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-01 14:22:51,961 INFO 14776 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-01 14:22:51,961 INFO 14776 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-09-01 14:23:22,094 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:24:22.094
+2020-09-01 14:23:22,095 INFO 14776 [Job#1598941402094199312173095037] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:23:29,793 INFO 14776 [Job#1598941402094199312173095037] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 7696ms
+2020-09-01 14:24:22,096 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:25:22.096
+2020-09-01 14:24:22,098 INFO 14776 [Job#1598941462096199912179705318] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:24:23,979 INFO 14776 [Job#1598941462096199912179705318] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 1880ms
+2020-09-01 14:25:22,100 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:26:22.100
+2020-09-01 14:25:22,100 INFO 14776 [Job#1598941522100200512187040459] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:25:22,141 INFO 14776 [Job#1598941522100200512187040459] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 41ms
+2020-09-01 14:26:22,101 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:27:22.101
+2020-09-01 14:26:22,102 INFO 14776 [Job#15989415821012011121928649310] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:26:22,142 INFO 14776 [Job#15989415821012011121928649310] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 40ms
+2020-09-01 14:27:22,104 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:28:22.104
+2020-09-01 14:27:22,105 INFO 14776 [Job#15989416421042017121998440611] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:27:25,088 INFO 14776 [Job#15989416421042017121998440611] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 2983ms
+2020-09-01 14:28:22,106 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:29:22.106
+2020-09-01 14:28:22,107 INFO 14776 [Job#15989417021062023122073171012] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:28:22,147 INFO 14776 [Job#15989417021062023122073171012] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 40ms
+2020-09-01 14:29:22,109 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:30:22.109
+2020-09-01 14:29:22,110 INFO 14776 [Job#15989417621092029122141005813] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:29:22,835 INFO 14776 [Job#15989417621092029122141005813] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 725ms
+2020-09-01 14:30:22,111 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:31:22.111
+2020-09-01 14:30:22,111 INFO 14776 [Job#15989418221112035122207653814] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:30:22,318 INFO 14776 [Job#15989418221112035122207653814] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 207ms
+2020-09-01 14:31:22,114 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:32:22.114
+2020-09-01 14:31:22,115 INFO 14776 [Job#15989418821142041122279658115] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:31:22,212 INFO 14776 [Job#15989418821142041122279658115] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 97ms
+2020-09-01 14:32:22,116 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:33:22.116
+2020-09-01 14:32:22,116 INFO 14776 [Job#15989419421162047122341495216] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:32:22,152 INFO 14776 [Job#15989419421162047122341495216] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 36ms
+2020-09-01 14:33:22,117 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:34:22.117
+2020-09-01 14:33:22,119 INFO 14776 [Job#15989420021172053122327735817] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:33:22,213 INFO 14776 [Job#15989420021172053122327735817] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 94ms
+2020-09-01 14:34:22,120 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:35:22.120
+2020-09-01 14:34:22,121 INFO 14776 [Job#15989420621202059122385948618] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:34:22,161 INFO 14776 [Job#15989420621202059122385948618] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 40ms
+2020-09-01 14:35:22,122 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:36:22.122
+2020-09-01 14:35:22,123 INFO 14776 [Job#15989421221222065122454938019] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:35:22,238 INFO 14776 [Job#15989421221222065122454938019] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 115ms
+2020-09-01 14:36:22,124 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:37:22.124
+2020-09-01 14:36:22,125 INFO 14776 [Job#15989421821242071122429279420] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:36:22,159 INFO 14776 [Job#15989421821242071122429279420] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 34ms
+2020-09-01 14:37:22,126 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:38:22.126
+2020-09-01 14:37:22,126 INFO 14776 [Job#15989422421262077122491661721] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:37:22,282 INFO 14776 [Job#15989422421262077122491661721] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 156ms
+2020-09-01 14:38:22,129 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:39:22.129
+2020-09-01 14:38:22,130 INFO 14776 [Job#15989423021292083122561420922] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:38:22,172 INFO 14776 [Job#15989423021292083122561420922] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 42ms
+2020-09-01 14:39:22,131 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:40:22.131
+2020-09-01 14:39:22,132 INFO 14776 [Job#15989423621312089122626978423] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:39:22,166 INFO 14776 [Job#15989423621312089122626978423] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 34ms
+2020-09-01 14:40:22,133 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:41:22.133
+2020-09-01 14:40:22,135 INFO 14776 [Job#15989424221332095122695518824] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:40:22,276 INFO 14776 [Job#15989424221332095122695518824] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 141ms
+2020-09-01 14:41:22,137 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:42:22.137
+2020-09-01 14:41:22,137 INFO 14776 [Job#15989424821372101122767715525] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:41:25,001 INFO 14776 [Job#15989424821372101122767715525] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 2864ms
+2020-09-01 14:42:22,138 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:43:22.138
+2020-09-01 14:42:22,140 INFO 14776 [Job#15989425421382107122833241026] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:42:22,340 INFO 14776 [Job#15989425421382107122833241026] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 200ms
+2020-09-01 14:43:22,141 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:44:22.141
+2020-09-01 14:43:22,143 INFO 14776 [Job#15989426021412113122903481227] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:43:22,214 INFO 14776 [Job#15989426021412113122903481227] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 71ms
+2020-09-01 14:44:22,143 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:45:22.143
+2020-09-01 14:44:22,144 INFO 14776 [Job#15989426621432119122975164728] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:44:22,569 INFO 14776 [Job#15989426621432119122975164728] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 425ms
+2020-09-01 14:45:22,146 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:46:22.146
+2020-09-01 14:45:22,147 INFO 14776 [Job#15989427221462125123042678829] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:45:22,182 INFO 14776 [Job#15989427221462125123042678829] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 35ms
+2020-09-01 14:46:22,147 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:47:22.147
+2020-09-01 14:46:22,147 INFO 14776 [Job#15989427821472131123012786630] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:46:22,198 INFO 14776 [Job#15989427821472131123012786630] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 51ms
+2020-09-01 14:47:22,149 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:48:22.149
+2020-09-01 14:47:22,151 INFO 14776 [Job#15989428421492137123078119631] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:47:22,469 INFO 14776 [Job#15989428421492137123078119631] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 318ms
+2020-09-01 14:48:22,153 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:49:22.153
+2020-09-01 14:48:22,153 INFO 14776 [Job#15989429021532143123149867332] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:48:22,197 INFO 14776 [Job#15989429021532143123149867332] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 44ms
+2020-09-01 14:49:22,153 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:50:22.153
+2020-09-01 14:49:22,155 INFO 14776 [Job#15989429621532149123120520333] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:49:22,477 INFO 14776 [Job#15989429621532149123120520333] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 322ms
+2020-09-01 14:50:22,156 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:51:22.156
+2020-09-01 14:50:22,157 INFO 14776 [Job#15989430221562155123191177534] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:50:22,229 INFO 14776 [Job#15989430221562155123191177534] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 72ms
+2020-09-01 14:51:22,158 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:52:22.158
+2020-09-01 14:51:22,159 INFO 14776 [Job#15989430821582161123257344535] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:51:22,229 INFO 14776 [Job#15989430821582161123257344535] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 70ms
+2020-09-01 14:52:22,160 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:53:22.160
+2020-09-01 14:52:22,161 INFO 14776 [Job#15989431421602167123225784536] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:52:22,307 INFO 14776 [Job#15989431421602167123225784536] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 146ms
+2020-09-01 14:53:22,162 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:54:22.162
+2020-09-01 14:53:22,162 INFO 14776 [Job#15989432021622173123297628437] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:53:22,258 INFO 14776 [Job#15989432021622173123297628437] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 96ms
+2020-09-01 14:54:22,164 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:55:22.164
+2020-09-01 14:54:22,166 INFO 14776 [Job#15989432621642179123363763238] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:54:22,228 INFO 14776 [Job#15989432621642179123363763238] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 62ms
+2020-09-01 14:55:22,168 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:56:22.168
+2020-09-01 14:55:22,168 INFO 14776 [Job#15989433221682185123430154739] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:55:22,441 INFO 14776 [Job#15989433221682185123430154739] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 273ms
+2020-09-01 14:56:22,169 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:57:22.169
+2020-09-01 14:56:22,171 INFO 14776 [Job#15989433821692191123531570140] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:56:22,241 INFO 14776 [Job#15989433821692191123531570140] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 70ms
+2020-09-01 14:57:22,172 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:58:22.172
+2020-09-01 14:57:22,173 INFO 14776 [Job#15989434421722197123569416441] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:57:22,221 INFO 14776 [Job#15989434421722197123569416441] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 48ms
+2020-09-01 14:58:22,174 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 14:59:22.174
+2020-09-01 14:58:22,175 INFO 14776 [Job#15989435021742203123640073642] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:58:22,306 INFO 14776 [Job#15989435021742203123640073642] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 131ms
+2020-09-01 14:59:22,177 INFO 14776 [Job#15989435621762209123614030243] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 14:59:22,176 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:00:22.176
+2020-09-01 14:59:22,214 INFO 14776 [Job#15989435621762209123614030243] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 37ms
+2020-09-01 15:00:22,178 INFO 14776 [Job#15989436221782215123676380444] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:00:22,178 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:01:22.178
+2020-09-01 15:00:22,250 INFO 14776 [Job#15989436221782215123676380444] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 72ms
+2020-09-01 15:01:22,182 INFO 14776 [Job#15989436821802221123746364145] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:01:22,180 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:02:22.180
+2020-09-01 15:01:22,294 INFO 14776 [Job#15989436821802221123746364145] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 112ms
+2020-09-01 15:02:22,183 INFO 14776 [Job#15989437421832227123713489146] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:02:22,183 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:03:22.183
+2020-09-01 15:02:22,224 INFO 14776 [Job#15989437421832227123713489146] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 41ms
+2020-09-01 15:03:22,186 INFO 14776 [Job#15989438021842233123780682347] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:03:22,184 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:04:22.184
+2020-09-01 15:03:22,253 INFO 14776 [Job#15989438021842233123780682347] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 67ms
+2020-09-01 15:04:22,188 INFO 14776 [Job#15989438621872239123851628248] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:04:22,187 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:05:22.187
+2020-09-01 15:04:22,295 INFO 14776 [Job#15989438621872239123851628248] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 107ms
+2020-09-01 15:05:22,189 INFO 14776 [Job#15989439221882245123820164449] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:05:22,188 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:06:22.188
+2020-09-01 15:05:22,230 INFO 14776 [Job#15989439221882245123820164449] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 41ms
+2020-09-01 15:06:22,192 INFO 14776 [Job#15989439821912251123887806750] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:06:22,226 INFO 14776 [Job#15989439821912251123887806750] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 34ms
+2020-09-01 15:06:22,191 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:07:22.191
+2020-09-01 15:07:22,193 INFO 14776 [Job#15989440421932257123962986251] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:07:22,193 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:08:22.193
+2020-09-01 15:07:22,311 INFO 14776 [Job#15989440421932257123962986251] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 118ms
+2020-09-01 15:08:22,197 INFO 14776 [Job#15989441021952263124032617152] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:08:22,195 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:09:22.195
+2020-09-01 15:08:24,273 INFO 14776 [Job#15989441021952263124032617152] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 2076ms
+2020-09-01 15:09:22,199 INFO 14776 [Job#15989441621992269124099265153] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:09:22,199 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:10:22.199
+2020-09-01 15:09:22,298 INFO 14776 [Job#15989441621992269124099265153] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 99ms
+2020-09-01 15:10:22,202 INFO 14776 [Job#15989442222002275124161198454] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:10:22,200 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:11:22.200
+2020-09-01 15:10:22,381 INFO 14776 [Job#15989442222002275124161198454] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 179ms
+2020-09-01 15:11:22,204 INFO 14776 [Job#15989442822032281124240996555] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:11:22,203 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:12:22.203
+2020-09-01 15:11:22,342 INFO 14776 [Job#15989442822032281124240996555] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 138ms
+2020-09-01 15:11:49,612 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-01 15:11:49,612 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-01 15:11:49,612 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-01 15:11:49,612 INFO 14312 [egg-schedule]: register schedule D:\lzy\egg-demo\app\schedule\update_cache.js
+2020-09-01 15:12:22,205 INFO 14312 [Job#15989443422052287124298535756] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:12:22,316 INFO 14312 [Job#15989443422052287124298535756] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 108ms
+2020-09-01 15:12:22,205 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:13:22.205
+2020-09-01 15:13:22,208 INFO 14312 [Job#15989444022082293124361463357] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:13:22,293 INFO 14312 [Job#15989444022082293124361463357] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 85ms
+2020-09-01 15:13:22,208 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:14:22.208
+2020-09-01 15:14:22,209 INFO 14312 [Job#15989444622092299124335804758] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:14:22,242 INFO 14312 [Job#15989444622092299124335804758] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 33ms
+2020-09-01 15:14:22,209 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:15:22.209
+2020-09-01 15:15:22,212 INFO 14312 [Job#15989445222112305124310499059] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:15:22,301 INFO 14312 [Job#15989445222112305124310499059] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 89ms
+2020-09-01 15:15:22,211 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:16:22.211
+2020-09-01 15:16:22,214 INFO 14312 [Job#15989445822132311124378301760] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:16:22,255 INFO 14312 [Job#15989445822132311124378301760] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 41ms
+2020-09-01 15:16:22,213 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:17:22.213
+2020-09-01 15:17:22,217 INFO 14312 [Job#15989446422152317124446457261] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:17:22,645 INFO 14312 [Job#15989446422152317124446457261] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 428ms
+2020-09-01 15:17:22,215 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:18:22.215
+2020-09-01 15:18:22,218 INFO 14312 [Job#15989447022172323124420606262] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:18:22,319 INFO 14312 [Job#15989447022172323124420606262] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 101ms
+2020-09-01 15:18:22,217 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:19:22.217
+2020-09-01 15:19:22,218 INFO 14312 [Job#15989447622192329124500308063] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:19:22,219 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:20:22.219
+2020-09-01 15:19:24,678 INFO 14312 [Job#15989447622192329124500308063] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 2460ms
+2020-09-01 15:20:22,223 INFO 14312 [Job#15989448222222335124554030664] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:20:22,259 INFO 14312 [Job#15989448222222335124554030664] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 36ms
+2020-09-01 15:20:22,222 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:21:22.222
+2020-09-01 15:21:22,224 INFO 14312 [Job#15989448822232341124520385865] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:21:22,265 INFO 14312 [Job#15989448822232341124520385865] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 41ms
+2020-09-01 15:21:22,223 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:22:22.223
+2020-09-01 15:22:22,227 INFO 14312 [Job#15989449422262347124592293966] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:22:22,324 INFO 14312 [Job#15989449422262347124592293966] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 97ms
+2020-09-01 15:22:22,226 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:23:22.226
+2020-09-01 15:23:22,229 INFO 14312 [Job#15989450022282353124665388667] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:23:22,274 INFO 14312 [Job#15989450022282353124665388667] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 45ms
+2020-09-01 15:23:22,228 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:24:22.228
+2020-09-01 15:24:22,232 INFO 14312 [Job#15989450622302359124733383768] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:24:22,444 INFO 14312 [Job#15989450622302359124733383768] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 212ms
+2020-09-01 15:24:22,230 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:25:22.230
+2020-09-01 15:25:22,234 INFO 14312 [Job#15989451222342365124796567969] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:25:22,273 INFO 14312 [Job#15989451222342365124796567969] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 39ms
+2020-09-01 15:25:22,234 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:26:22.234
+2020-09-01 15:26:22,236 INFO 14312 [Job#15989451822352371124869309870] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:26:22,328 INFO 14312 [Job#15989451822352371124869309870] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 92ms
+2020-09-01 15:26:22,235 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:27:22.235
+2020-09-01 15:27:22,239 INFO 14312 [Job#15989452422382377124936278671] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:27:22,460 INFO 14312 [Job#15989452422382377124936278671] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 221ms
+2020-09-01 15:27:22,238 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:28:22.238
+2020-09-01 15:28:22,241 INFO 14312 [Job#15989453022402383125005011472] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:28:22,479 INFO 14312 [Job#15989453022402383125005011472] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 238ms
+2020-09-01 15:28:22,240 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:29:22.240
+2020-09-01 15:29:22,244 INFO 14312 [Job#15989453622432389125079549473] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:29:22,289 INFO 14312 [Job#15989453622432389125079549473] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 45ms
+2020-09-01 15:29:22,243 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:30:22.243
+2020-09-01 15:30:22,245 INFO 14312 [Job#15989454222452395125136062374] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:30:22,351 INFO 14312 [Job#15989454222452395125136062374] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 106ms
+2020-09-01 15:30:22,245 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:31:22.245
+2020-09-01 15:31:22,248 INFO 14312 [Job#15989454822462401125113547075] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:31:22,292 INFO 14312 [Job#15989454822462401125113547075] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 44ms
+2020-09-01 15:31:22,246 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:32:22.246
+2020-09-01 15:32:22,249 INFO 14312 [Job#15989455422502407125175031276] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:32:22,338 INFO 14312 [Job#15989455422502407125175031276] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 88ms
+2020-09-01 15:32:22,250 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:33:22.250
+2020-09-01 15:33:22,252 INFO 14312 [Job#15989456022502413125150527377] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:33:22,295 INFO 14312 [Job#15989456022502413125150527377] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 42ms
+2020-09-01 15:33:22,250 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:34:22.250
+2020-09-01 15:34:22,253 INFO 14312 [Job#15989456622522419125125446178] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:34:22,346 INFO 14312 [Job#15989456622522419125125446178] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 93ms
+2020-09-01 15:34:22,252 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:35:22.252
+2020-09-01 15:35:22,254 INFO 14312 [Job#15989457222542425125187988879] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:35:22,290 INFO 14312 [Job#15989457222542425125187988879] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 36ms
+2020-09-01 15:35:22,254 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:36:22.254
+2020-09-01 15:36:22,257 INFO 14312 [Job#15989457822572431125253353980] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:36:22,374 INFO 14312 [Job#15989457822572431125253353980] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 116ms
+2020-09-01 15:36:22,257 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:37:22.257
+2020-09-01 15:37:22,259 INFO 14312 [Job#15989458422582437125225963481] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:37:22,335 INFO 14312 [Job#15989458422582437125225963481] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 76ms
+2020-09-01 15:37:22,258 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:38:22.258
+2020-09-01 15:38:22,262 INFO 14312 [Job#15989459022602443125295498182] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:38:22,351 INFO 14312 [Job#15989459022602443125295498182] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 89ms
+2020-09-01 15:38:22,260 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:39:22.260
+2020-09-01 15:39:22,264 INFO 14312 [Job#15989459622642449125359933183] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:39:22,318 INFO 14312 [Job#15989459622642449125359933183] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 54ms
+2020-09-01 15:39:22,264 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:40:22.264
+2020-09-01 15:40:22,267 INFO 14312 [Job#15989460222652455125432354384] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:40:22,265 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:41:22.265
+2020-09-01 15:40:24,010 INFO 14312 [Job#15989460222652455125432354384] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 1742ms
+2020-09-01 15:41:22,269 INFO 14312 [Job#15989460822682461125500830585] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:41:22,268 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:42:22.268
+2020-09-01 15:41:24,191 INFO 14312 [Job#15989460822682461125500830585] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 1922ms
+2020-09-01 15:42:22,270 INFO 14312 [Job#15989461422702467125575432786] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:42:22,312 INFO 14312 [Job#15989461422702467125575432786] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 42ms
+2020-09-01 15:42:22,270 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:43:22.270
+2020-09-01 15:43:22,274 INFO 14312 [Job#15989462022732473125634768087] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:43:22,373 INFO 14312 [Job#15989462022732473125634768087] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 99ms
+2020-09-01 15:43:22,273 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:44:22.273
+2020-09-01 15:44:22,275 INFO 14312 [Job#15989462622742479125611386788] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:44:22,318 INFO 14312 [Job#15989462622742479125611386788] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 43ms
+2020-09-01 15:44:22,274 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:45:22.274
+2020-09-01 15:45:22,278 INFO 14312 [Job#15989463222762485125676719789] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:45:22,403 INFO 14312 [Job#15989463222762485125676719789] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 125ms
+2020-09-01 15:45:22,276 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:46:22.276
+2020-09-01 15:46:22,279 INFO 14312 [Job#15989463822802491125735509990] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:46:22,280 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:47:22.280
+2020-09-01 15:46:25,460 INFO 14312 [Job#15989463822802491125735509990] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 3181ms
+2020-09-01 15:47:22,281 INFO 14312 [Job#15989464422802497125707189291] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:47:22,383 INFO 14312 [Job#15989464422802497125707189291] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 101ms
+2020-09-01 15:47:22,280 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:48:22.280
+2020-09-01 15:48:22,284 INFO 14312 [Job#15989465022832503125780251992] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:48:22,323 INFO 14312 [Job#15989465022832503125780251992] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 39ms
+2020-09-01 15:48:22,283 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:49:22.283
+2020-09-01 15:49:22,285 INFO 14312 [Job#15989465622852509125853058093] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:49:22,285 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:50:22.285
+2020-09-01 15:49:24,272 INFO 14312 [Job#15989465622852509125853058093] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 1987ms
+2020-09-01 15:50:22,288 INFO 14312 [Job#15989466222872515125816238094] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:50:22,322 INFO 14312 [Job#15989466222872515125816238094] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 34ms
+2020-09-01 15:50:22,287 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:51:22.287
+2020-09-01 15:51:22,290 INFO 14312 [Job#15989466822892521125894240095] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:51:22,360 INFO 14312 [Job#15989466822892521125894240095] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 70ms
+2020-09-01 15:51:22,289 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:52:22.289
+2020-09-01 15:52:22,293 INFO 14312 [Job#15989467422912527125974711596] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:52:22,435 INFO 14312 [Job#15989467422912527125974711596] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 142ms
+2020-09-01 15:52:22,291 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:53:22.291
+2020-09-01 15:53:22,295 INFO 14312 [Job#15989468022952533126021698797] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:53:22,335 INFO 14312 [Job#15989468022952533126021698797] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 40ms
+2020-09-01 15:53:22,295 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:54:22.295
+2020-09-01 15:54:22,298 INFO 14312 [Job#15989468622962539126093991798] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:54:22,388 INFO 14312 [Job#15989468622962539126093991798] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 90ms
+2020-09-01 15:54:22,296 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:55:22.296
+2020-09-01 15:55:22,300 INFO 14312 [Job#15989469222992545126168882599] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:55:22,335 INFO 14312 [Job#15989469222992545126168882599] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 35ms
+2020-09-01 15:55:22,299 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:56:22.299
+2020-09-01 15:56:22,301 INFO 14312 [Job#159894698230125511262294366100] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:56:22,400 INFO 14312 [Job#159894698230125511262294366100] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 99ms
+2020-09-01 15:56:22,301 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:57:22.301
+2020-09-01 15:57:22,305 INFO 14312 [Job#159894704230425571263044558101] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:57:22,341 INFO 14312 [Job#159894704230425571263044558101] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 36ms
+2020-09-01 15:57:22,304 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:58:22.304
+2020-09-01 15:58:22,307 INFO 14312 [Job#159894710230625631263717774102] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:58:22,428 INFO 14312 [Job#159894710230625631263717774102] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 121ms
+2020-09-01 15:58:22,306 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 15:59:22.306
+2020-09-01 15:59:22,310 INFO 14312 [Job#159894716230925691264406064103] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 15:59:22,356 INFO 14312 [Job#159894716230925691264406064103] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 46ms
+2020-09-01 15:59:22,309 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:00:22.309
+2020-09-01 16:00:22,312 INFO 14312 [Job#159894722231125751265089864104] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:00:22,515 INFO 14312 [Job#159894722231125751265089864104] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 203ms
+2020-09-01 16:00:22,311 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:01:22.311
+2020-09-01 16:01:22,315 INFO 14312 [Job#159894728231325811265790021105] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:01:22,351 INFO 14312 [Job#159894728231325811265790021105] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 36ms
+2020-09-01 16:01:22,313 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:02:22.313
+2020-09-01 16:02:22,317 INFO 14312 [Job#159894734231625871266449125106] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:02:22,416 INFO 14312 [Job#159894734231625871266449125106] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 98ms
+2020-09-01 16:02:22,316 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:03:22.316
+2020-09-01 16:03:22,317 INFO 14312 [Job#159894740231725931266206010107] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:03:22,387 INFO 14312 [Job#159894740231725931266206010107] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 70ms
+2020-09-01 16:03:22,317 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:04:22.317
+2020-09-01 16:04:22,321 INFO 14312 [Job#159894746232025991266835606108] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:04:22,426 INFO 14312 [Job#159894746232025991266835606108] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 105ms
+2020-09-01 16:04:22,320 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:05:22.320
+2020-09-01 16:05:22,322 INFO 14312 [Job#159894752232226051267681055109] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:05:22,445 INFO 14312 [Job#159894752232226051267681055109] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 123ms
+2020-09-01 16:05:22,322 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:06:22.322
+2020-09-01 16:06:22,325 INFO 14312 [Job#159894758232426111267224012110] D:\lzy\egg-demo\app\schedule\update_cache.js executing by app
+2020-09-01 16:06:22,418 INFO 14312 [Job#159894758232426111267224012110] D:\lzy\egg-demo\app\schedule\update_cache.js execute succeed, used 93ms
+2020-09-01 16:06:22,324 INFO 9932 [Timer] D:\lzy\egg-demo\app\schedule\update_cache.js next time will execute after 60000ms at 2020-09-01 16:07:22.324

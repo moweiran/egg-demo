@@ -4,7 +4,7 @@ class UpdateCache extends Subscription {
     // 通过 schedule 属性来设置定时任务的执行间隔等配置
     static get schedule() {
         return {
-            interval: '1m', // 1 分钟间隔
+            interval: '10s', // 1 分钟间隔
             type: 'all', // 指定所有的 worker 都需要执行
         };
     }
@@ -21,8 +21,8 @@ class UpdateCache extends Subscription {
         });
         this.ctx.logger.info('Egg latest version: %s', result.data.version);
         // const sql = `select distinct gys_city from  tb_gys  where gys_city is not null`;
-        const cities = await this.ctx.mysql.get('gys_city', {});
-        console.log(cities);
+        //const cities = await this.ctx.mysql.get('gys_city', {});
+        //console.log(cities);
         this.ctx.app.cache = result.data.version;
     }
 }

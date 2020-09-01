@@ -480,3 +480,18 @@ headers: {}
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:188:7)
 2020-07-21 14:07:58,661 ERROR 13888 [Job#1595311678611147749475005464] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 49ms
+2020-09-01 14:17:22,277 ERROR 10520 [Job#1598941042076195712111309281] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-09-01 14:17:22,282 ERROR 10520 [Job#1598941042076195712111309281] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 200ms
+2020-09-01 14:18:22,128 ERROR 10520 [Job#1598941102081196312118647622] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-09-01 14:18:22,131 ERROR 10520 [Job#1598941102081196312118647622] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 50ms
+2020-09-01 14:19:25,130 ERROR 10520 [Job#1598941162084196912144450493] D:\lzy\egg-demo\app\schedule\update_cache.js execute error. TypeError: Cannot read property 'get' of undefined
+    at UpdateCache.subscribe (D:\lzy\egg-demo\app\schedule\update_cache.js:24:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2020-09-01 14:19:25,131 ERROR 10520 [Job#1598941162084196912144450493] D:\lzy\egg-demo\app\schedule\update_cache.js execute failed, used 3047ms
