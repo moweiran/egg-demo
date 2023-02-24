@@ -13,7 +13,7 @@
     "dependencies": {
         "egg": "^2.26.0",
         "egg-mysql": "^3.0.0",
-        "egg-sequelize": "^5.2.1",
+        "egg-sequelize": "^6.0.0",
         "egg-view-nunjucks": "^2.2.0",
         "egg-webpack": "^4.5.3",
         "moment": "^2.24.0",
